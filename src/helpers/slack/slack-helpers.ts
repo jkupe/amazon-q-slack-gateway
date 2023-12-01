@@ -213,7 +213,7 @@ export const createModal = (title: string, sources: SourceAttribution[]): ModalV
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: `_From: ${source.url.trim()}_`
+          text: `From: ${source.url.trim()}`
         }
       });
 
